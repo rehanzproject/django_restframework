@@ -1,0 +1,16 @@
+1. REST API adalah Representation State Transfer Application Programming interface yang artinya arsitektur perangkat
+lunak yang di buat untuk memandu desain dan pengembangan dari arsitektur Dunia Web Luas
+REST telah dipresentasikan 
+API dibuat untuk mengijinkan klien untuk berbicara dengan server , dengan maksud transfer dari 
+klien ke server menggunakan HTTP request
+3. Headless Architectur adala spealisasi dari memisahkan arsitektur, dimana layer presentasi dari sebuah aplikasi terpisah layanan dari back-end
+Kelebihannya lebih mudah untuk menyajikan data, karena headless architectur tidak perlu front-end di 
+semisal kita mau menyajikan dari front-end , maka kita perlu menyiapkan semisal contoh dari kode JavaScript yg saya buat
+async function GetAPI(){
+ let x = await fetch(API_URL)
+  .then (data => data.json())
+  .then (res => console.log(res))
+}
+
+GetAPI()
+
