@@ -2,7 +2,7 @@
 lunak yang di buat untuk memandu desain dan pengembangan dari arsitektur Dunia Web Luas
 API dibuat untuk mengijinkan klien untuk berbicara dengan server , dengan maksud transfer dari klien ke server menggunakan HTTP request
 3. Headless Architectur adala spealisasi dari memisahkan arsitektur, dimana layer presentasi dari sebuah aplikasi terpisah layanan dari back-end
-Kelebihannya lebih mudah untuk menyajikan data, karena headless architectur tidak perlu front-end untuk menyajikan data
-contoh sederhana jika kita menyajikan dengan Front-end menggunakan Fetch method (Folder exampleFetch).
-Setelah run index.html , maka cek ke Inspect Element > Console , maka muncul respon dari reqres.in 
+Kelebihannya lebih mudah untuk menyajikan data, karena headless architectur tidak perlu front-end untuk menyajikan data.
+Contoh sederhana jika kita menyajikan dengan menggunakan Fetch method (Folder exampleFetch).
+Setelah run index.html , maka cek ke Inspect Element > Console , maka muncul respon dari API tersebut
 
